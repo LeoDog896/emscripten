@@ -54,6 +54,8 @@ GitHub and set them as :term:`active <Active Tool/SDK>`:
 
   .. note:: On Windows, run ``emsdk.bat`` instead of ``./emsdk``, and ``emsdk_env.bat`` instead of ``source ./emsdk_env.sh``.
 
+  .. note:: On the Fish shell, run ``source ./emsdk_env.fish`` instead of ``source ./emsdk_env.sh``.
+
   .. note:: On Windows, if you use the ``activate`` command, the step of ``emsdk_env.bat`` is optional. If you want to know more, see :ref:`activate SDK version <emsdk-set-active-tools>`.
 
   .. note:: ``git pull`` will fetch the current list of tags, but very recent ones may not yet be present there. You can run ``./emsdk update-tags`` to update the list of tags directly.
